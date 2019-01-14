@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(255, 255, 210);
+    width: 100%;
+}
+
+#conteneur {
+    margin: 30px auto;
+    width: 720px;
+    background-color: white;
+}
+
+.date {
+
+    background:rgb(196, 40, 53);
+    color: white;
+    height: 100px;
+    width: 70px;
+    float: left;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-left: 240px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button {
+    text-align: center;
+    margin-left: 240px;
+    width: 240px;
+    height: 40px;
+    background-color: rgb(66, 66, 66);
+}
+
+.button a {
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.second {
+    width: 420px;
+    float: left;
+}
+
+.third {
+    width: 420px;
+    float: right;
+}
+
+
+.fourth {
+    width: 420px;
+    float: left;
+}
