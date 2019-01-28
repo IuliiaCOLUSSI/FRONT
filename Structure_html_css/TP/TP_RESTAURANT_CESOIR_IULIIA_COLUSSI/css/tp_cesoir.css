@@ -40,7 +40,7 @@ h5 {
     height: 0;
     border-top: 200px solid rgb(200, 47, 119);; 
     border-left: 200px solid transparent;
-    opacity: .3;
+    opacity: .4;
     transform: rotate(48deg);
     padding-top: 250px;
 }
