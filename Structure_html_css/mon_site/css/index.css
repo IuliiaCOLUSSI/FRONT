@@ -80,6 +80,10 @@ footer{
     background:MISTYROSE;
     height: 30px;
 }
+
+main {
+    padding: 20px;
+}
 /*********************************  DEBUT HEADER  ***********************************/
 header{
     background-color:SLATEGRAY;
@@ -218,4 +222,194 @@ span {
     width: 70%;
     background-color: white;
     vertical-align: 600px;
+}
+
+.second img {
+    border: 4px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 30px 370px;
+}
+
+/* img[src="img/toureiffel.jpg"} - thats how we co=an choose an element without giving it a class */
+
+h3 {
+    font-size: 25px;
+    color: palevioletred;
+    margin-top: 30px;
+}
+
+.third img {
+    margin-top: 20px;
+    margin-right: 30px;
+    border: 5px solid white;
+    box-shadow: 8px 12px 18px 0px #000000;
+
+}
+
+.third img:first-child{
+    margin-left: 160px;
+}
+
+
+.third img:first-child:hover,.third img:nth-child(2):hover{
+    transform: rotate(20deg);
+    transition: all 0.8s ease-in-out 0s;
+}
+
+
+
+.third img:last-child{
+    display: block;
+    margin: 30px auto;
+}
+
+
+.third img:last-child:hover{
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+/* .rotation : image de type inline-block, elle xomporte des marges par defaut. Pout supprimer cette marge,
+ouvrir comme après 1ere photo et  la fermer avant 2eme photo ou enlever les espaces en HTML */
+
+/* LES LISTES */
+
+p {
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.arrow-right li,.ball li {
+    list-style: none;
+}
+
+
+
+.arrow-right li {
+    float: left;
+    margin-top: 20px;
+    margin-right: 30px;
+
+}
+
+.ball li:first-child {
+    margin-top: 20px;
+}
+
+
+i {
+    color: rgb(214, 23, 55);
+    margin-right: 5px;
+}
+
+.fa-circle {
+    color: rgb(189, 189, 189);
+    margin-right: 5px;
+}
+
+.ball li:first-child {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ball li {
+    font-size: 20px;
+}
+
+.ball li:hover {
+    font-size: 35px;
+    transition: all 0.5s ease-in-out 0s;
+    color: red;
+}
+
+ol li{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+dl dt {
+font-size: 20px;    
+}
+
+/* ----TABLEAU----- */
+
+
+table{
+border: 4px solid #5895f8;   /* bordure 3 valeurs épaisseur, type de trait couleus */
+border-collapse: collapse;
+/* par défaut le bordure contient 2 traits, pour que le trait soit unique on utilise la propriété "collapse" */
+width: 90%;
+/* largeur du tableau par rapport à son contenant donc ici le body /!/ ne pas oublier la régle de l'héritage en CSS */
+margin: 25px;
+}
+
+thead, tfoot {
+    background-color: rgb(198, 234, 255);;
+    border: 2px solid #5895f8;;
+}
+
+tbody {
+    border: 1px solid #5895f8;
+}
+
+th {
+    border: 1px solid #5895f8;
+    /* dotted = pointillés */
+    padding: 4px;
+    /* le padding est une marge interieur */
+    background-color: rgb(198, 234, 255);
+    width: 25%;
+}
+
+td {
+    font-size: 100%;
+    border: 1px solid #5895f8;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* ----POSITIONNING----- */
+
+.green_box {
+    display: block;
+    margin: 20px auto;
+    background: rgb(38, 204, 135);
+    height: 150px;
+    width: 400px;
+}
+
+.green_box p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+   line-height: 150px;
+}
+
+
+.red_box {
+    display: inline-block;
+    position: relative;
+    margin: 20px auto;
+    background: rgb(204, 38, 38);
+    height: 400px;
+    width: 400px;
+}
+
+
+.blue_box {
+    position: absolute;
+    bottom: 5px;
+    background: rgb(23, 38, 252);
+    height: 30px;
+    width: 30px;
+
+}
+
+.second_box p{
+    margin-right: 110px;
+    bottom: 400px;
+    position: relative;
+    display: inline-block;
 }
