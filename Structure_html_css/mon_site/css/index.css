@@ -63,6 +63,7 @@ strong{
     font-weight: bold;
 }
 main{
+    height: 7800px;
     background: mistyrose ;
     margin: 0 auto;
     width: 1000px;
@@ -412,4 +413,295 @@ td {
     bottom: 400px;
     position: relative;
     display: inline-block;
+}
+
+
+/* ----------------ZONING-------------------- */
+#zoning {
+    width: 800px;
+    height: 600px;
+}
+
+
+#zoning div:first-child {
+    background-color: rgb(241, 212, 114);
+    height: 80px;
+    text-align: center;
+
+}
+
+#zoning div:nth-child(2) {
+    float: left;
+    width: 200px;
+    height: 520px;
+    background-color: rgb(161, 204, 126);
+}
+
+#zoning div:last-child {
+    width: 760px;
+    height: 502px;
+    background-color: rgb(76, 97, 59);
+}
+
+
+ #zoning div:last-child img{
+    position: relative;
+    top: 170px;
+    left: 0px;
+}  
+
+.clear {
+    clear: both;
+}
+
+/* #zoning1 {
+    margin: 0 auto;
+    width: 800px;
+    border: 2px solid black;
+}
+
+#zoning1 .header {
+    height: 80px;
+    background-color: darkgrey;
+
+}
+
+#zoning1 aside {
+    width: 30%;
+    height: 500px;
+    background-color: purple;
+    float: left;
+}
+
+#zoning1 section {
+    width: 70%;
+    height: 500px;
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    float: left;
+} */
+
+
+/* ---------------------ZONING2---------- */
+
+#zoning2 {
+    color: white;
+    text-align: center;
+    height: 700px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(165, 45, 45);
+}
+
+#zoning2 aside {
+    float: left;
+    height: 700px;
+    width: 140px;
+    background-color: rgb(52, 82, 52);
+}
+
+
+
+#zoning2 .middle {
+    float: left;
+    height: 700px;
+    width: 320px;
+}
+
+.second_zone p{
+    text-align: center;
+}
+
+
+/* ---------------------ZONING3-------------- */
+
+
+#zoning3 {
+    margin: 0 auto;
+    height: 600px;
+    width: 700px;
+}
+#zoning3 aside {
+    height: 550px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    float: left;
+    background-color: grey;
+}
+
+
+
+#zoning3 aside:last-of-type {
+    background-color: rgb(64, 124, 64);
+}
+
+.bas {
+    text-align: center;
+    height: 50px;
+    background-color: rgb(238, 238, 156);
+}
+
+
+/* -------------------------ZONING4-------------------------- */
+
+#zoning4 {
+    margin: 0 auto;
+    height: 600px;
+    width: 700px;
+    border: 3px solid black;
+}
+
+
+.header {
+    height: 100px;
+    background: rgb(206, 206, 206);
+    line-height: 100px;
+    text-align: center;
+}
+
+.nav {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(104, 160, 104);
+    border-bottom: 10px solid rgb(74, 136, 194);
+
+}
+
+.section {
+    height: 395px;
+    background: url(../img/pexels-photo-531880.jpeg);
+    background-origin: padding-box;
+    background-size: cover;
+    border: 20px solid white;
+}
+
+/* --------------------FIFTH SECTION ------------- */
+
+#five_zone {
+    padding: 0;
+    border: 2px solid black;
+    margin: 0 auto;
+    height: 650px;
+    width: 700px;
+}
+
+.headerFive {
+    line-height: 100px;
+    height: 100px;
+    background-color: rgb(251, 232, 147);
+    text-align: center;
+}
+
+.navFive {
+    line-height: 40px;
+    height: 40px;
+    background-color: rgb(214, 175, 67);
+    border-bottom: 5px solid rgb(189, 155, 5);
+    text-align: center;
+}
+
+.sectionFive {
+    height: 440px;
+    border: 20px solid white;
+}
+
+.footerFive {
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    background-color: rgb(214, 175, 67);
+
+}
+
+.zone_one,.zone_two,.zone_three,.zone_four {
+    text-align: center;
+    width: 328px;
+    height: 200px;
+    background-color: rgb(189, 155, 5);
+    float: left;
+}
+
+
+.zone_two {
+    background: url(../img/hogwarts-crest-png-5.png) no-repeat 60px 0px;
+    background-size: contain;
+    background-color: rgb(214, 175, 67);
+
+}
+
+
+.zone_three {
+    background: url(../img/harry-potter-1-logo-png-transparent.png) no-repeat 60px 0px;
+    background-size: contain;
+    background-color: rgb(214, 175, 67);
+
+}
+
+
+/* DEBAGGING */
+
+#cont{
+  height: 700px;
+   width: 80%;
+   margin: 0 auto;
+   background-color:white;
+
+}
+#cont, .headerFive{
+   height: 80px;
+   background-color: goldenrod;
+   color: black; /*Couleur texte*/
+   text-align: center;
+}
+#cont nav{
+ border-bottom: 4px solid black;
+ height: 40px;
+ background:#d6941a;
+ text-align: center;
+ color: #000;
+}
+
+.mainFive {
+    height: 400px;
+}
+#cont .or{
+ height: 200px;
+ width: 50%;
+ background-color: rgb(151, 101, 245);
+ color: #000;
+ float: left;
+}
+
+
+#cont .beige{
+ height: 200px;
+ width: 50%;
+ background-color: rgb(64, 89, 122);
+ text-align: center;
+ float: right;
+
+}
+
+#cont .beige1{
+   height: 200px;
+   width: 50%;
+   background-color:  rgb(151, 101, 245);
+   float: right;
+}
+
+#cont .br{
+   height: 200px;
+   width: 50%;
+   background-color:  rgb(64, 89, 122);
+   float: left;
+}
+
+#footerFive{
+   height: 80px;
+   background-color: goldenrod;
+   color: black; /*Couleur texte*/
+   text-align: center;
 }
