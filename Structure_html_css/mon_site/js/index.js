@@ -7,3 +7,14 @@ function nextSlide() {
     currentSlide = (currentSlide + 1) % slideshow.length;
     slideshow[currentSlide].className = 'slide demonstration';
 }
+
+@media print
+{
+        .printiframe, .printiframe *
+        {
+            display: block!important;
+        }
+    body.maincontent {
+        display: none;
+    }
+}    

@@ -1103,3 +1103,60 @@ button:hover {
     color: pink;
     transition: 1s;
 }
+
+
+/* -------------LES LIENS AND MENUS-------------------- */
+
+#firstul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#firstul li {
+    margin: 20px 5px;
+    border-radius: 10px;
+    list-style: none;
+    background: red;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#firstul li:hover {
+    transform: scale(1.3);
+
+}
+
+
+/* ---------------ANOTHER MENU---------------- */*
+
+#secondul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#secondul li {
+    padding: 10px;
+    margin: 20px 5px;
+    border-radius: 10px;
+    list-style: none;
+    background-color: white;
+    border: 1px solid pink;
+
+}
+
+#secondul li a {
+    text-decoration: none;
+    color: pink;
+    text-transform: uppercase;
+}
+
+#secondul li:hover {
+   background-color: rgb(255, 255, 170);
+   transition: 1s ease-in-out;
+
+}
