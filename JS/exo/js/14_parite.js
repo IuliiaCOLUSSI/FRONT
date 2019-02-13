@@ -1,10 +1,25 @@
 
+var c = prompt("cest la quelle nombre alors?");
 
 var chiffre = 1;
 while (chiffre<=10) {
     document.write(chiffre + " multiplie " + c + " egale " + (c * chiffre) + "<br/>");
     chiffre++;
 }
+
+
+
+// CORRECTION
+
+// var choix = prompt('Choisis un nombre : ');
+// if ((choix >=2) && (choix <=9)) {
+//     for( i = 1; i <=10; i++) {
+//         var res = choix * 1;
+//         document.write(choix + 'x' + i + '=' + res + '<br/>');
+//     }
+// } else {
+//     document.write ("<h4> Le chiffre doit etre entre 2 et 9!</h4>")
+// }
 
 
 
