@@ -1131,7 +1131,7 @@ button:hover {
 }
 
 
-/* ---------------ANOTHER MENU---------------- */*
+/* ---------------ANOTHER MENU---------------- */
 
 #secondul {
     display: flex;
@@ -1160,3 +1160,280 @@ button:hover {
    transition: 1s ease-in-out;
 
 }
+
+
+/* MENU DEROULANT */
+
+/* 
+.menu_deroulant ul {
+    
+    position: relative;
+}
+
+.menu_deroulant ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 5px;
+    border-radius: 10px;
+    list-style: none;
+    background-color: white;
+    border: 1px solid pink;
+
+}
+
+.submenu li {
+    position: relative;
+    padding: 10px;
+    margin: 20px 5px;
+    border-radius: 10px;
+    list-style: none;
+    background-color: white;
+    border: 1px solid pink;
+
+}
+
+.menu_deroulant ul li a {
+    display: block;
+    text-decoration: none;
+    color: pink;
+    text-transform: uppercase;
+}
+
+.submenu li a {
+    display: block;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+    color: pink;
+    text-transform: uppercase;
+}
+
+
+.submenu{
+    position: absolute;
+    display: none;
+}
+
+.submenu li{
+    position: relative;
+    display: none;
+}
+
+.menu_deroulant .submenu li:hover {
+    display: block;
+} */
+
+
+/* CORRECTION */
+
+
+#menuDeroulant {
+    height: 650px;
+
+}
+
+#menuDeroulant nav {
+    background: transparent;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#menuDeroulant nav ul li {
+    float: left;
+    list-style: none;
+    width: 20%;
+}
+
+
+#menuDeroulant ul ul {
+    /* on definit les listes qui sont dans les listes */
+    display: none;
+
+}
+
+#menuDeroulant nav ul li ul li {
+    border-top: 1px solid pink;
+    width: 100%;
+}
+
+#menuDeroulant nav li {
+    background: gainsboro;
+}
+
+
+#menuDeroulant nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 4px 0 4px;
+    display: block;
+    /* pour qu'ils s'etendent sur toute la lonheur de son conteneur */
+    background: mistyrose;
+}
+
+#menuDeroulant nav ul.niveau1 li.sousMenu:hover ul.niveau2{
+    display: block;
+}
+
+/* Fin de ma page lien et menu */
+/* FORMULAIRE */
+
+form {
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+    background-color: rgb(211, 79, 79);
+    color: white;
+}
+
+
+label { 
+float: left;
+width: 250px;
+}
+
+.file {
+    width: 250px;
+    float: left;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+
+.fraise,.mangue,.orange {
+    width: 80px;
+}
+
+.mangue {
+    margin-right: 180px;
+}
+
+form p {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+
+/* VUDEO/AUDIO */
+
+/* .fullwidth-bg {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    padding-top:45%;
+    /* overflow: hidden; */
+    /* z-index: -100;
+}
+ 
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+.video-layer{
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+ 
+.video-layer h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 20px;
+    margin-top: 17%;
+} */
+/*  */
+/* @media (max-width: 767px) {
+    .fullwidth-bg {
+        background: url(../video/videoBackground.mp4) center center / cover no-repeat;
+    }
+ 
+    .fullwidth-bg__video {
+        display: none;
+    }
+} */ 
+
+
+@font-face {
+  font-family: Moderne Sans;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/moderne_sans.woff2)
+}
+* {
+  box-sizing: border-box;
+}
+
+video { 
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    object-position: center;
+}
+div#fashion {
+    margin-bottom: 200px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fashion h2 { 
+  font-family: Century Schoolbook, Century Schoolbook L, Georgia, serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 2rem 3rem 0;
+  mix-blend-mode: overlay;
+  color: #fff;
+  font-weight: 100;
+}
+
+
+/* CORRECTION VIDEO FOND */
+/* 
+.videoFond {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.videoFond video {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+videoTexte {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.videoFond p{
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.6);
+    left: 250px;
+    top: 100px;
+    padding: 20px;
+    font-size: 120%;
+    border-radius: 10px;
+}
+ */
+
+ iframe[allowFullscreen] {
+     /* Cet atribut, lorsqu'il est TRUE(vrai) indique que l'IFRAME
+     intégré peut-etre passé en pleine écran avec
+     la methode Element.requestfullscreen() */
+     width: 100%;
+ }

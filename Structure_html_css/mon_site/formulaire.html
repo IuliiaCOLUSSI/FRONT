@@ -54,7 +54,35 @@
         <a href="explication_flexbox.html">Flexbox</a>
     </nav>
     <main>
-        <h2>Texte</h2>
+        <h2>Formulaire</h2>
+        <form method="post" enctype="multipart/form-data">
+            <label for="pseudo">Pseudo*</label>
+                <input type="text" id="pseudo" name="login">
+            <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="login_prenom" placeholder="Votre prénom">
+            <label for="passe">Mot de passe</label>
+                <input type="password" id="passe" name="mot_de_passe">
+            <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            <label for="file" class="file">CV</label>
+                <input type="file" id="file" name="file">
+                <p>Quels sont vos fruits préferés?</p>
+            <label class="orange">
+                <input type="radio" name="orange" value="orange">Orange
+                </label>
+            <label class="fraise">
+                <input type="radio" name="fraise" value="fraise" checked>Fraise
+                </label>
+            <label class="mangue">
+                <input type="radio" name="mangue" value="mangue">Mangue
+                </label>
+                <label for="text">Code postel</label>
+                <input id="text" type="text" name="code_postale">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="6"></textarea>
+                <input type="submit" value="Envoyer">
+                <input type="submit" value="Annuler">
+        </form>
         <a href="#logo">
             <button type="button">
                 <i class="fas fa-arrow-alt-circle-up" aria-hidden="true"></i>
