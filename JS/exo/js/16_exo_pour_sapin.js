@@ -28,7 +28,7 @@ for (var i = 1; i<8; i++) {
 
 // boucle WHILE
 
-console log("WHILE");
+console.log("WHILE");
 var ligne ="";
 var i = 1;
 while(i<=7) {
