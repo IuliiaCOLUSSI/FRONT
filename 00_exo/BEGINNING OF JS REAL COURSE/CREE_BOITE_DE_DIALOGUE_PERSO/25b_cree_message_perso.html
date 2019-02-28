@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
     .msgBox{
-        background-color: silver;
+        background-color: pink;
         width: 242px;
         height: 100px;
         /* temporaire height quand c'est rien en interieur de div */
@@ -18,7 +18,6 @@
     }
     
     .msgBox p{
-        background-color: pink;
         padding: 10px 20px;
     }
 
@@ -85,6 +84,29 @@
                 boiteDialogue.parentNode.removeChild(boiteDialogue);
             // We told to papent to close himself
             });
+
+            var image = document.createElement('img');
+            image.src = "image/warning.png";
+            image.setAttribute('class', 'imgAttention');
+            pMessage.appendChild(image);
+
+            // Si le msgType a la valeur 'warning', alors l'icone warning sara s'affichée comme background-image du message
+            // et le panel prendra la couleur d'arrière plan rouge.
+            // Sinon, le msgType à la valeur 'chat', alors l'icone chat sera affichée et le panel prendra la couleur d'arrière
+            // plan bleu turquuoise. Si le peremètre msgType n'a pas de valeur du tout, alors, le paragraphe prendra un padding
+            // par défaut et il n'y aura ni icone ni couleur d'arrière plan.createElement
+            // 1er etape: Construisez les IF avec les instructions suivants;
+            // 2eme etape: Si le msgType a la valeur 'WARNING'
+            // alors on affiche alert ('ATTENTION');
+            // Sinon si (le msgType à la valeur de 'chat')
+            // alors
+            // on affiche alert ('chat');
+            // Sinon
+            // on affiche alert ('rien');
+
+            // etape 1 : pour tester le paramèthre msgType
+
+
 
 
      };
