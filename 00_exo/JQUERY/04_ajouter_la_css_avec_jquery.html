@@ -44,10 +44,14 @@
 
         $('.resultat').on('click', function() {
             // tout ce qu'on va faire au click sur article, THIS c'est l'article qui est cliqué
-            $('article').css('background-color', 'forestgreen');
-            $(this).css('font-size', '2rem');
-        })
+            // $('article').css('background-color', 'forestgreen');
+            // $(this).css('font-size', '2rem');
 
+        $(this).css({
+            'background-color': 'hotpink',
+            'font-size' : ".5rem"
+        });
+        })
 
 
 // <!-- Sélectionner le paragraphe .resultat,
