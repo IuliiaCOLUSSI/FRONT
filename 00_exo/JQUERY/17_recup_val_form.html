@@ -109,6 +109,26 @@
                     $('<p>').append('Vous etes un(e) : ' + $(':radio:checked').val()).appendTo('.info');
                     $('<p>').append('Votre choix est : ' + $(':checkbox:checked').val()).appendTo('.info');
 
+                //  affiche les couleurs cochées par l'utilisateur
+                // CLOSURE 'pour acceder aux variables locales d'une fonction
+                function couleurs(){
+                    var couleurs = [];
+
+                    return function(){
+                        $("input[type='checkbox']:checked").each(
+                            function(){
+                                couleurs.push(' ' + $(this).attr('id'));
+                                console.log(couleurs);
+                            }
+
+
+                        )//FIN DU EACH
+                        $('<p>').append('Tu a choisi les couleur suivantes ' + couleurs).appendTo('.info');
+                    }
+                }
+                var ajoutCouleurs = couleurs();
+                ajoutCouleurs();
+
 
 
             })//Fin de submit
